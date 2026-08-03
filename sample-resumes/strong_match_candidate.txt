@@ -1,0 +1,15 @@
+Ananya Sharma
+ananya.sharma@email.com | +91 9876543210
+
+Summary:
+Data Analyst with 3 years of experience turning raw data into business decisions.
+
+Skills:
+Python, SQL, Power BI, Tableau, Excel, Git, statistical analysis, data cleaning,
+machine learning, exploratory data analysis, data storytelling.
+
+Experience:
+Built dashboards in Power BI and Tableau for executive reporting. Used Python
+(Pandas, NumPy, Scikit-learn) and SQL to clean and analyze large datasets.
+Applied regression and classification models to forecast customer behavior.
+Presented findings to stakeholders using clear data storytelling techniques.

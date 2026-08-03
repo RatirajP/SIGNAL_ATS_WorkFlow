@@ -1,0 +1,12 @@
+Rohan Mehta
+rohan.mehta@email.com | +91 9123456780
+
+Summary:
+Recent graduate with 1 year of experience in data analysis using Excel and SQL.
+
+Skills:
+Excel, SQL, basic Python, data cleaning.
+
+Experience:
+Assisted in preparing reports using Excel and SQL queries. Learning Python
+for data analysis. Familiar with basic statistics and data cleaning tasks.

@@ -1,0 +1,113 @@
+/* ---------------------------------------------------------------------------
+   DESIGN TOKENS — "Signal"
+   A premium recruiting SaaS palette: indigo/violet primary (trust, focus),
+   cyan accent (the "signal" idea — a scan/detection color), and a strict
+   status triad (success/warning/danger) used ONLY for score bands and
+   pipeline states so color always carries meaning, never decoration alone.
+--------------------------------------------------------------------------- */
+
+:root {
+  /* ---- Light theme (default) ---- */
+  --bg: #f3f5fb;
+  --bg-gradient: radial-gradient(120% 120% at 10% 0%, #eef1fb 0%, #f3f5fb 45%, #eef2f7 100%);
+  --surface: #ffffff;
+  --surface-glass: rgba(255, 255, 255, 0.72);
+  --surface-sunken: #eef0f6;
+  --border-glass: rgba(255, 255, 255, 0.6);
+
+  --ink: #12141f;
+  --ink-soft: #5b6172;
+  --ink-faint: #9096a6;
+  --line: #e5e8f0;
+
+  --primary: #4f46e5;
+  --primary-strong: #3730a3;
+  --primary-soft: #edebfd;
+  --primary-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+
+  --accent: #06b6d4;
+  --accent-soft: #e3f9fc;
+
+  --success: #16a34a;
+  --success-soft: #e7f6ec;
+  --warning: #d97706;
+  --warning-soft: #fdf1e0;
+  --danger: #dc2626;
+  --danger-soft: #fce9e8;
+  --neutral: #6b7280;
+  --neutral-soft: #eef0f3;
+
+  --shadow-sm: 0 1px 2px rgba(18, 20, 31, 0.05);
+  --shadow-md: 0 8px 24px rgba(18, 20, 31, 0.08);
+  --shadow-lg: 0 20px 48px rgba(18, 20, 31, 0.12);
+  --shadow-glow: 0 0 0 4px rgba(79, 70, 229, 0.12);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 140ms;
+  --dur-med: 240ms;
+  --dur-slow: 420ms;
+}
+
+[data-theme="dark"] {
+  --bg: #0a0c14;
+  --bg-gradient: radial-gradient(120% 120% at 10% 0%, #14172a 0%, #0a0c14 45%, #0d1018 100%);
+  --surface: #12141f;
+  --surface-glass: rgba(20, 23, 36, 0.65);
+  --surface-sunken: #191c2b;
+  --border-glass: rgba(255, 255, 255, 0.08);
+
+  --ink: #edeef5;
+  --ink-soft: #a8adbd;
+  --ink-faint: #6b7080;
+  --line: rgba(255, 255, 255, 0.08);
+
+  --primary: #818cf8;
+  --primary-strong: #a5b4fc;
+  --primary-soft: rgba(129, 140, 248, 0.14);
+  --primary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+
+  --accent: #22d3ee;
+  --accent-soft: rgba(34, 211, 238, 0.12);
+
+  --success: #34d399;
+  --success-soft: rgba(52, 211, 153, 0.12);
+  --warning: #fbbf24;
+  --warning-soft: rgba(251, 191, 36, 0.12);
+  --danger: #f87171;
+  --danger-soft: rgba(248, 113, 113, 0.12);
+  --neutral: #9ca3af;
+  --neutral-soft: rgba(156, 163, 175, 0.1);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.45);
+  --shadow-glow: 0 0 0 4px rgba(129, 140, 248, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
